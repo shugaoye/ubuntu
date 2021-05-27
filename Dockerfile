@@ -8,6 +8,6 @@ RUN apt-get update && \
 	rm -rf /var/lib/apt/lists/*
 
 
-RUN pip3 install notebook
+RUN pip3 install notebook pyyaml
 
 ENTRYPOINT ["/root/docker_entrypoint.sh"]
